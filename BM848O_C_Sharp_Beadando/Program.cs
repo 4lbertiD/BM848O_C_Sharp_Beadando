@@ -48,6 +48,8 @@
 
             Console.WriteLine("\nMinden elem megegyezik a ket halmazban?");
             collection.Megegyezo();
+
+            collection.TiznelKisebb();
         }
         public static void Kiir<T>(IEnumerable<T> collection)
         {

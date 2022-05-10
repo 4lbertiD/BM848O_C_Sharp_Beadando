@@ -55,6 +55,13 @@
                 Console.WriteLine("Nem");
             }
         }
+        internal void TiznelKisebb()
+        {
+            Console.WriteLine("\n10-nel kisebb szamok:  ");
+            var kisebbSzamok = halmaz1.Where(n => n < 10);
+            foreach (var n in kisebbSzamok)
+                Console.WriteLine(n);
+        }
 
 
     }
